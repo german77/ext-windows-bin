@@ -1,9 +1,8 @@
 C:\Qt\5.5\Src\configure -prefix %CD%\output ^
         -debug-and-release -opensource -opengl desktop -mp -c++11 -ltcg ^
         -nomake examples ^
-        -skip qtdeclarative -skip qtdoc -skip qtmultimedia ^
-        -skip qttools -skip qtwebkit -skip qtwebkit-examples ^
-        -skip qtxmlpatterns
+        -skip qtdeclarative -skip qtdoc -skip qttools ^
+        -skip qtwebengine -skip qtxmlpatterns
 
 nmake
 nmake install
